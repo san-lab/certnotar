@@ -6,3 +6,5 @@ A certificate is generated attesting a DILITHIUM r3 public key from an IBM card 
 The serial number of the new certificate points to an address, chainid and nonce on some Ethereum network - this transaction calldata contains the certificate's signature (RSA)
 
 A modified Go x509 package is used.
+
+Of course, a valid Ethereum key needs to be provided.
