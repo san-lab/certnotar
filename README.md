@@ -7,4 +7,4 @@ The serial number of the new certificate points to an address, chainid and nonce
 
 A modified Go x509 package is used.
 
-Of course, a valid Ethereum key needs to be provided.
+Of course, a valid Ethereum key needs to be provided for notarizing on blockchain.
