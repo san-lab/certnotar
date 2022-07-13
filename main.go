@@ -31,7 +31,7 @@ func init() {
 	if e != nil {
 		panic(e)
 	}
-	key, e := kmsclitool.KeyFromPassScrypt([]byte("kaczuszka"), kf.Crypto.KdfScryptParams)
+	key, e := kmsclitool.KeyFromPassScrypt([]byte("abcdef"), kf.Crypto.KdfScryptParams)
 	if e != nil {
 		panic(e)
 	}
